@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Напишите нам!</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <section class="popup popup__no-js">
+      <div class="popup__layout">
+        <div class="popup__wrapper">
+          <h2 class="popup__title">Напишите нам</h2>
+          <form class="popup__form" method="post" action="https://echo.htmlacademy.ru">
+            <ul class="popup__list">
+              <li class="popup__item">
+                <label class="popup__label" for="name">Ваше имя:</label>
+                <input class="popup__input popup__username" type="text" name="name" id="name" placeholder="Имя Фамилия">
+              </li>
+              <li class="popup__item">
+                <label class="popup__label" for="email">Ваш e-mail:</label>
+                <input class="popup__input popup__email" type="email" name="email" id="email" placeholder="email@example.com">
+              </li>
+              <li class="popup__item">
+                <label class="popup__label" for="text">Текст письма:</label>
+                <textarea class="popup__input popup__textarea" id="text" placeholder="В свободной форме"></textarea>
+              </li>
+            </ul>
+            <button class="popup__button button" type="submit">Отправить</button>
+            <button class="popup__close" type="button"><span class="visually-hidden">Закрыть</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
